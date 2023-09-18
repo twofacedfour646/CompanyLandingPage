@@ -1,0 +1,43 @@
+:root {
+  --primary-color: #1EC666;
+}
+
+/* Styling for all of app */
+.App {
+  height: 100vh;
+}
+
+/* Styling for logo */
+.logo {
+  width: 100px;
+}
+
+/* Style to container */
+.container {
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Master heading style */
+.masthead-left {
+  max-width: 55%;
+  margin-right: auto;
+}
+
+.masthead-right {
+  max-width: 40%;
+  margin-left: auto;
+}
+
+/* Curve background style */
+.masthead {
+  background-image: url('../public/wave.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* End of curve background style */
+
+/* Wireframe style */
+.wireframe {
+  position: absolute;
+}
